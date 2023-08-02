@@ -3,11 +3,11 @@ const CONFIG = {
   profile: {
     name: "morethanmin",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    role: "studentka veřejné správy",
+    bio: "Ahoj, jedu do Francie a budu psát blog.",
+    email: "eva.tesnarova@email.cz",
+    linkedin: "",
+    github: "",
     instagram: "",
   },
   projects: [
@@ -30,7 +30,7 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.6af86a08f1b84e2bbcaa98d5548831ad,
+    pageId: process.env.NOTION_PAGE_ID,
   },
 
   // plugin configuration (optional)
