@@ -1,10 +1,10 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Eva Tešnarová",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "studentka veřejné správy",
-    bio: "Ahoj, jedu do Francie a budu psát blog.",
+    role: "",
+    bio: "Ahoj, tohle je můj blog o cestě do Francie a zpátky.",
     email: "eva.tesnarova@email.cz",
     linkedin: "",
     github: "",
@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
+    title: "Eva's Blog",
     description: "welcome to morethan-log!",
   },
 
@@ -47,7 +47,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: "morethanmin/morethan-log",
       "issue-term": "og:title",
